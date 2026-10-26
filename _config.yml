@@ -1,0 +1,12 @@
+# Theme Setup
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Configuration Variables
+title: Oliver Flores's ePortfolio
+description: Computer Science student focused on software development and interactive systems.
+
+# Optional Settings
+show_downloads: false
+google_analytics: 
