@@ -9,4 +9,29 @@ description: Computer Science student focused on software development and intera
 
 # Optional Settings
 show_downloads: false
-google_analytics: 
+google_analytics:
+
+# Every page gets the theme's default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# ---------------------------------------------------------------------------
+# Links and facts used throughout the site.
+# Change one of these and every page that uses it updates.
+# ---------------------------------------------------------------------------
+code_review_video: https://youtu.be/PHUf5RcZN48
+code_review_embed: https://www.youtube.com/embed/PHUf5RcZN48
+
+repo_url: https://github.com/OliverFlores77/CS499-Computer-Science-Capstone
+original_url: https://github.com/OliverFlores77/CS499-Computer-Science-Capstone
+enhancement1_url: https://github.com/OliverFlores77/CS499-Computer-Science-Capstone/tree/enhancement-1
+enhancement2_url: https://github.com/OliverFlores77/CS499-Computer-Science-Capstone/tree/enhancement-2
+enhancement3_url: https://github.com/OliverFlores77/CS499-Computer-Science-Capstone/tree/enhancement-3
+source_path: app/src/main/java/com/example/cs360week3oliverflores
+test_path: app/src/test/java/com/example/cs360week3oliverflores
+
+# The term you took CS 360 (used in the narratives)
+cs360_term: June 2026
